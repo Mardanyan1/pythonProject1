@@ -19,8 +19,8 @@ dsvsdffd
 '''
 flag = True
 
-list1 = [1, 2, "test"]#не меняются значения
-list2 = (1, 2, "test")#меняются значения
+list1 = [1, 2, "test"]#меняются значения
+list2 = (1, 2, "test")#неменяются значения(константы)
 
 print(num1)
 print("i have " + str(num1) + " dollars")
@@ -41,6 +41,15 @@ print(sum(2, 3))
 # camelCase
 # snake_case
 """
+
+
+list = [1, 2, 3]
+print(list[0])
+list1 = (1,2,3)
+list2 = {1,2,3}
+list3 = {'brad':1, 'cat':12, 'milk':5}#словарь
+print(list3.get('bread'))
+
 
 res = f(78, 4, -91)
 print('%.2e' % res)
